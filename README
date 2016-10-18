@@ -36,7 +36,7 @@ Its not guranteed that every Key will have a Value, and every Value will have a 
 
 you may see something like this
 
-Name:Milk;Price:3.23;type:;expiration:1/24/2016##
+Name:Milk;PriceTest:3.23;type:;expiration:1/24/2016##
 
 Notice how TYPE has a key but no Value.... if you try and parse this into an object your program could crash.
 
